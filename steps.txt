@@ -1,0 +1,14 @@
+Step 1: Getting started 
+Test Site to First Get started with scraping - The Goal is to,
+Send request to a site, fetch raw Code - Clean Code for required data
+Format and Save Data to CSV
+
+Step 2: By passing security
+Go for a Website protected by reCaptcha or has bot protection, Add proxies
+Scrape Code, Clean it, Format and Save data
+
+Step 3:
+Use an Ai Model and integrate it with the scrapper so users can scrape any site they want and format the data in a structured way with a prompt.
+
+Step 4:
+Add a Front to for Better interaction with the Scrapper using React-TypeScript.
