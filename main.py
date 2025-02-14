@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 
 #files import - internal imports
-from scrapper.fetchsite import router as ScrapperRouter
+from scrapper.fetchApi import router as ScrapperRouter
 
 
 
