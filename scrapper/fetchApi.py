@@ -1,5 +1,6 @@
-
 from scrapper.functions import get_html, extract_data_from_html, extract_text_from_html
+
+#FastApi Imports Imports
 from fastapi import APIRouter, HTTPException,Query
 
 

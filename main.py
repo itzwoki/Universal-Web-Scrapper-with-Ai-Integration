@@ -3,6 +3,7 @@ from fastapi import FastAPI
 
 #files import - internal imports
 from scrapper.fetchApi import router as ScrapperRouter
+from LLM.gpt4all import router as LLMrouter
 
 
 
@@ -20,4 +21,5 @@ license_info={
 )
 
 app.include_router(ScrapperRouter)
+app.include_router(LLMrouter)
 
