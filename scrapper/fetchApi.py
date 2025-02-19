@@ -26,7 +26,7 @@ async def get_text(url: str):
     """
     html = await get_html(url)
     if not html:
-        raise HTTPException(status_code=404, detail="Error fetching HTML")
+        raise HTTPException(status_code=404, detail="Error fetching Text From HTML.")
     text_from_html = extract_text_from_html(html)
     return {"Message": "Succesfully Cleaned HTML.", "text": text_from_html}
 
@@ -43,7 +43,7 @@ async def get_data(url: str, selector: str):
     return {"Message": "Succesfully Fetched..", "text": data_from_html}
 
 
-@router.get("/get-html-text-selectorText")
+@router.get("/get-html-text-selector-text")
 async def playwright_scrape(
     url: str,
     mode: str = Query("html", enum=["html", "text", "selector"]),
